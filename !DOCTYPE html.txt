@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>🎓 Portal</h2>
+        <ul>
+            <li>Dashboard</li>
+            <li>Profile</li>
+            <li>Courses</li>
+            <li>Attendance</li>
+            <li>Results</li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+
+        <!-- Header -->
+        <div class="header">
+            <input type="text" placeholder="Search...">
+            <div class="profile">
+                <img src="./images/profile.png" alt="Profile Picture">
+                <span>Arya</span>
+            </div>
+        </div>
+
+        <!-- Welcome Card -->
+        <div class="welcome">
+            <h2>Welcome back, Arya 👋</h2>
+            <p>Always stay updated in your student portal</p>
+        </div>
+
+        <!-- Cards -->
+        <div class="cards">
+            <div class="card">💰 Fees: ₹10,000</div>
+            <div class="card">📊 Attendance: 85%</div>
+            <div class="card">📚 Courses: 5</div>
+        </div>
+
+        <!-- Courses Section -->
+        <div class="section">
+            <h3>Enrolled Courses</h3>
+            <div class="course">Web Application Development</div>
+            <div class="course">Artificial Intelligence and Machine Learning</div>
+            <div class="course">Data Science and Big Data Analytics</div>
+            <div class="course">Cloud Computing</div>
+            <div class="course">Computer Network Security</div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
