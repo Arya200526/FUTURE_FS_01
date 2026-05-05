@@ -1,0 +1,39 @@
+
+
+
+Aim:
+To install Google App Engine environment and deploy a simple Hello World web application.
+Theory:
+Google App Engine is a Platform as a Service (PaaS) that allows developers to build and host web applications in Google-managed data centers.
+It provides automatic scaling, load balancing, and application health monitoring. Developers can deploy applications written in Python, Java,
+Node.js, Go, and other supported languages.
+Prerequisites:
+• Basic knowledge of web programming
+• Python installation
+• Google account
+• Internet connection
+Step-by-Step Procedure:
+1. Install Google Cloud SDK from the official website.
+2. Open terminal or command prompt.
+3. Initialize SDK using the command: gcloud init
+4. Create a new project in Google Cloud Console.
+5. Create a folder named hello-app.
+6. Inside the folder create file main.py.
+7. Write Python Flask code to display Hello World.
+8. Create configuration file app.yaml.
+9. Deploy application using command gcloud app deploy.
+10. Launch application using gcloud app browse.
+
+Sample Code:
+from flask import Flask
+app = Flask(__name__)
+
+@app.route('/')
+def hello():
+    return "Hello World from Google App Engine"
+Expected Output:
+Web browser displays Hello World message hosted on cloud platform.
+Learning Outcome:
+Students understand deployment of web applications on cloud infrastructure.
+Conclusion
+Students successfully completed the experiment and understood the concept demonstrated.
